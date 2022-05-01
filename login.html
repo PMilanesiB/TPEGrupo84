@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="estilos.css">
-    <title>Login</title>
+    <title>Todo Libros</title>
+    <script src="https://kit.fontawesome.com/a4f65283d7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div class="encabezado">
+        Libros nuevos y usados- Todas las categorías- Todos los medios de pago- Envíos a todo el país
+    </div>
+    <div class="navBar">
+        <div class="sectorLogo">
+            <a class="logo" href="index.html"><i class="fa-solid fa-book-open"></i> Todo Libros</a>
+        </div>
+        <div>
+            <ul class="buttons">
+                <li class="btnEnlace"> <a class="enlace" href="libros.html">Productos</a></li>
+                <li class="btnEnlace"> <a class="enlace" href="login.html">Login</a></li>
+                <li class="btnEnlace"> <a class="enlace" href="index.html">Inicio</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tituloPagina">
+        Crear cuenta
+    </div>
+
+    <div class="containerLogin">
+
+        <div class="formulario">
+            <form action="">
+
+                <div class="dato-form">
+                    <label for="nombre">NOMBRE</label>
+                    <input class="escribir" type="text" name="nombre" placeholder="ej. Juan">
+                </div>
+                <div class="dato-form">
+                    <label for="apellido">APELLIDO</label>
+                    <input class="escribir" type="text" name="apellido" placeholder="ej. Pérez">
+                </div>
+                <div class="dato-form">
+                    <label for="sexo">SEXO</label>
+                    <ul class="seleccionar">
+                        <li><input type="radio" name="sexo" value="varon"> Varón </li>
+                        <li><input type="radio" name="sexo" value="mujer"> Mujer</li>
+                    </ul>
+
+                </div>
+                <div class="dato-form">
+                    <label for="pais">PAÍS</label>
+                    <select>
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="uruguay">Uruguay</option>
+                    </select>
+                </div>
+                <div class="dato-form">
+                    <label for="email">E-MAIL</label>
+                    <input class="escribir" type="email" name="email" placeholder="ej. jperez@tudai.com">
+                </div>
+                <div class="dato-form">
+                    <label for="telefono">TELÉFONO</label>
+                    <input class="escribir" type="text" name="telefono" placeholder="ej. 2494593314">
+                </div>
+                <div class="dato-form">
+                    <label for="password">CONTRASEÑA</label>
+                    <input class="escribir" type="password" name="password">
+                </div>
+                <div class="dato-form">
+                    <label for="password">CONFIRMAR CONTRASEÑA</label>
+                    <input class="escribir" type="password" name="password">
+                </div>
+                <div class="crearCuenta">
+                    <input class="botonSubmit" type="submit" value="CREAR CUENTA">
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        Buscanos en todas las redes sociales
+    </div>
 </body>
+
 </html>

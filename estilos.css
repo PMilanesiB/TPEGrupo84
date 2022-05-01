@@ -1,24 +1,221 @@
-.titulo{
-    background-color: rgb(106, 106, 145);
-    font-size: xx-large;
-    text-align: center;
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
 }
+
+.sectorLogo {
+    padding: 10px;
+    margin: 5px 30px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-family: 'Square Peg', cursive;
+    color: aliceblue;
+
+    text-decoration: none;
+}
+
+.enlace {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.btnEnlace {
+    margin: 5px 30px;
+    padding: 10px;
+}
+
+.btnEnlace:hover {
+    border: 4px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.categorias {
+    margin: 5px 30px;
+    padding: 10px;
+    border-bottom: 1px brown;
+    border-bottom-style: solid;
+}
+
+.categorias:hover {
+    background-color: rgb(211, 209, 209);
+}
+
+.buttons {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+
+}
+
 .encabezado {
-    background-color: #f5f5f5;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(48, 84, 128);
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.tituloPagina {
+    background-color: rgb(226, 223, 223);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 4rem;
+    padding: 30px;
+}
+
+.containerIndex {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.containerLogin {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+.escribir {
+    width: 100%;
+    padding: 10px;
+    border: 1px brown;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.seleccionar {
+    list-style: none;
+}
+
+input::placeholder {
+    color: brown;
+    opacity: 0.3;
+}
+
+.formulario {
+    width: 35%;
+}
+
+.dato-form {
+    margin-top: 10px;
+}
+
+.crearCuenta {
+    margin-top: 20px;
+    margin-bottom: 100px;
     text-align: center;
 }
-.lista {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  }
-  .footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+
+.botonSubmit {
+    background-color: brown;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+select {
+    margin-top: 7px;
     width: 100%;
-    height: 30px;
-    background-color: #f5f5f5;
-    color: rgb(48, 84, 128);;
+    padding: 7px;
+    border: 1px brown;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    list-style-image: url(imágenes/libro2.png);
+
+}
+
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    bottom: 0;
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+}
+
+.imagen_libreria {
+    text-align: right;
+}
+
+.imagenes1 {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.heading2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 42px;
+    color: brown;
+    border: 2px black;
+    border-style: dashed;
+}
+
+.containerLibros {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin: 50px;
+}
+
+thead {
+    background-color: brown;
+}
+
+th {
+    padding: 20px 50px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    border: 2px;
+    border-style: ridge;
+    border-radius: 7px;    
+}
+
+tbody {
+    background-color: rgb(190, 190, 190);
+}
+
+td {
+    padding: 20px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 7px;
 }
